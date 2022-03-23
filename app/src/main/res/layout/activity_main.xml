@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/opponentButton"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:backgroundTint="@color/black"
+            android:text="START"
+            />
+
+        <TextView
+            android:id="@+id/timeForOpponent"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:text="00:00"
+            android:textAlignment="center"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="RESET" />
+
+        <TextView
+            android:id="@+id/timeForPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:textColor="@color/black"
+            android:text="00:00"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/playerButton"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:backgroundTint="@color/white"
+            android:text="START"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</RelativeLayout>
